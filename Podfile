@@ -7,5 +7,9 @@ target 'WePay' do
 
   # Pods for WePay
   pod 'Braintree'
+  pod 'BraintreeDropIn'
+  pod 'Braintree/PayPal'
+  pod 'Braintree/Venmo'
+  pod 'Braintree/Apple-Pay'
 
 end

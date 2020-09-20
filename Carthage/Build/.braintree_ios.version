@@ -1,0 +1,84 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "4.35.0",
+  "iOS" : [
+    {
+      "name" : "Braintree3DSecure",
+      "hash" : "eb78d12d87bf09c7fe6436f84194812ec7e4919fea99bba4cf41babf463ae725",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeAmericanExpress",
+      "hash" : "fdbb9ea7ab8ca14eba4e7afb1e414955c402eb404e88eb6a2d876ccce3d0981b",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeApplePay",
+      "hash" : "8a53767e4732991688667bf66341bcadf60fc4877d26b2c7b3895bf780b23cac",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeCard",
+      "hash" : "370d4cc3aa82aa617e261375d2d6dbeb44909d711e8ec0edf3b2d7cae2049e22",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeCore",
+      "hash" : "72d9cf7778908d37500746440507a79b47b61ac2fe5e98a948ddfcab881db4cf",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeDataCollector",
+      "hash" : "d3335da05d8e18efcf51da7007d15009cd80e18f4d0b0cceebe702923e1ca2d1",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreePayPal",
+      "hash" : "9996c209f9b3489c6b846108cb3f58a194be455933fde5732c59c6951351a8ca",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreePaymentFlow",
+      "hash" : "8dfc97c3d886768e3b5b035dcbb75e5a0e17cd39682113e9c5aa68c714ff8237",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeUI",
+      "hash" : "cdb5b86bd950979715da9d8488c34696d8fd675f310e2b8bc9a4f8a50e1329e8",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeUnionPay",
+      "hash" : "e9583d7dd7685f14f3b17ca7e92d49d868eb44611232f649cec482c32de845c7",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "BraintreeVenmo",
+      "hash" : "bab898b53517381835d4e3d125cdbc47949c6f7fcfbbd290cf96aef5bec0ac98",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "PayPalDataCollector",
+      "hash" : "fbfa9b037a564907f1d93bae2616dcbd38a0001afc2db38f2eca9a030abd76d6",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "PayPalOneTouch",
+      "hash" : "d3f310834bd502c43e61eb5a5e60a2379b003ef2e6d66ee00db2d05dbad9802f",
+      "linking" : "dynamic"
+    },
+    {
+      "name" : "PayPalUtils",
+      "hash" : "b4bf32203bcac0bd6373fec77bd37f4022a78765b41c6b1cd9fc1e5edbc88099",
+      "linking" : "dynamic"
+    }
+  ]
+}

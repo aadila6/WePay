@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "BraintreeApplePay.h"
+#import "BTApplePayCardNonce.h"
+#import "BTApplePayClient.h"
+#import "BTConfiguration+ApplePay.h"
 #import "BraintreeCard.h"
 #import "BTAuthenticationInsight.h"
 #import "BTCard.h"
@@ -65,6 +69,22 @@
 #import "PPOTTime.h"
 #import "PPOTURLSession.h"
 #import "PPOTVersion.h"
+#import "BraintreePaymentFlow.h"
+#import "BTPaymentFlowDriver.h"
+#import "BTPaymentFlowRequest.h"
+#import "BTPaymentFlowResult.h"
+#import "BTConfiguration+LocalPayment.h"
+#import "BTLocalPaymentRequest.h"
+#import "BTLocalPaymentResult.h"
+#import "BTPaymentFlowDriver+LocalPayment.h"
+#import "BTConfiguration+ThreeDSecure.h"
+#import "BTPaymentFlowDriver+ThreeDSecure.h"
+#import "BTThreeDSecureAdditionalInformation.h"
+#import "BTThreeDSecureLookup.h"
+#import "BTThreeDSecurePostalAddress.h"
+#import "BTThreeDSecureRequest.h"
+#import "BTThreeDSecureResult.h"
+#import "BTThreeDSecureV1UICustomization.h"
 #import "BraintreeUI.h"
 #import "BTDropInViewController.h"
 #import "BTPaymentButton.h"
@@ -82,6 +102,14 @@
 #import "BTUIVectorArtView.h"
 #import "BTUIVenmoButton.h"
 #import "UIColor+BTUI.h"
+#import "BraintreeUnionPay.h"
+#import "BTCardCapabilities.h"
+#import "BTCardClient+UnionPay.h"
+#import "BTConfiguration+UnionPay.h"
+#import "BraintreeVenmo.h"
+#import "BTConfiguration+Venmo.h"
+#import "BTVenmoAccountNonce.h"
+#import "BTVenmoDriver.h"
 
 FOUNDATION_EXPORT double BraintreeVersionNumber;
 FOUNDATION_EXPORT const unsigned char BraintreeVersionString[];

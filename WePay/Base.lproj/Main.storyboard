@@ -16,23 +16,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6A-uq-MmG">
-                                <rect key="frame" x="162" y="417" width="90" height="57"/>
-                                <color key="backgroundColor" red="0.070657776780000001" green="0.116201809" blue="0.25971113239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="124" y="368" width="166" height="33"/>
+                                <color key="backgroundColor" red="0.043282686459999997" green="0.11892043369999999" blue="0.48820346260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <state key="normal" title="  Pay Now  ">
+                                <color key="tintColor" red="0.1058531627" green="0.1707463562" blue="0.37436056140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="  Paypal ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="payAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AB6-Ju-x8c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVr-7e-bd5">
+                                <rect key="frame" x="124" y="300" width="166" height="37"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Pay">
+                                    <color key="titleColor" red="0.93340864239999999" green="0.93668952139999995" blue="0.94653215820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="payBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="00O-p5-Znn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="B6A-uq-MmG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4nM-fo-CR8"/>
-                            <constraint firstItem="B6A-uq-MmG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162" id="YAW-NU-hDK"/>
-                            <constraint firstItem="B6A-uq-MmG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="373" id="rpS-yl-h2O"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B6A-uq-MmG" secondAttribute="bottom" constant="388" id="s7X-ba-U2H"/>
+                            <constraint firstItem="B6A-uq-MmG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0By-49-8DS"/>
+                            <constraint firstItem="B6A-uq-MmG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="bL8-NS-crX"/>
+                            <constraint firstItem="B6A-uq-MmG" firstAttribute="top" secondItem="QVr-7e-bd5" secondAttribute="bottom" constant="31" id="cTI-CM-795"/>
+                            <constraint firstItem="QVr-7e-bd5" firstAttribute="leading" secondItem="B6A-uq-MmG" secondAttribute="leading" id="npx-rk-L5x"/>
+                            <constraint firstItem="QVr-7e-bd5" firstAttribute="trailing" secondItem="B6A-uq-MmG" secondAttribute="trailing" id="tlN-fM-Ltx"/>
+                            <constraint firstItem="B6A-uq-MmG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="324" id="w7a-UA-5VR"/>
+                            <constraint firstItem="QVr-7e-bd5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="256" id="wGf-zp-NcE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
